@@ -1,0 +1,52 @@
+
+body {
+    background-color: hsla(180, 84%, 45%, 0.534);
+    margin:0px;
+}
+.container{
+  height:auto;
+  width:400px;
+  margin: 100px auto 20px;
+  border-radius: 10px;
+  padding : 20px;
+  box-shadow: 2px 2px hsla(0, 0%, 0%, 0.193);
+  background-color: white
+}
+.input{
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin-right: 25px;
+    border: 2%;;
+    padding: 10px;
+    border-radius: 15px;
+}
+button{
+    font-size: 1.3rem;
+    padding: 15px;
+    background-color: hsl(84, 50%, 59%);
+    color: white;
+    border: none;
+    margin-left:0;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:  hsl(84, 50%, 39%);
+}
+ol li{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;  
+}
+span{
+    margin-left: 125px;
+}
+ol li.checked{
+    text-decoration: line-through;
+}
+
+
+   
+
+   
